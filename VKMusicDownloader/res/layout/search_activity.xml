@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5E5E5" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ProgressBar
+            android:id="@+id/progressBarSearch"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+		/>
+    </RelativeLayout>
+
+    <ListView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainListVIewSearch"
+    android:background="#E5E5E5"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="10.0sp"
+    android:padding="10sp"    
+    android:scrollbarStyle="outsideOverlay"/>   
+
+</FrameLayout>

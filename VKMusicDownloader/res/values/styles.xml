@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+		<item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+		<item name="android:actionMenuTextColor">#ffffff</item>		
+    </style>
+    
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#96AA39</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+    
+     <style name="MyActionBarTabText"
+           parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+     
+     <style name="MyActionBarTitleText"
+           parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>

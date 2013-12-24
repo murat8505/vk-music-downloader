@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+     >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="45dp">
+        
+        <TextView
+            android:id="@+id/txtAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:singleLine="true"
+            android:textColor="#333333"/>  
+     
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:textColor="#777777"/>		     
+        
+    </LinearLayout>
+    
+	<TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="12sp"
+            android:layout_marginRight="7dp"
+            android:paddingBottom="4dp"
+            android:textColor="#777777"
+       />
+	
+	<ImageView 
+	    android:id="@+id/isDownloaded"
+	    android:layout_width="20dp"
+	    android:layout_height="20dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="7dp"
+	    android:paddingTop="4dp"
+	    android:src="@drawable/check"
+	    android:visibility="invisible"/>
+	
+</RelativeLayout>

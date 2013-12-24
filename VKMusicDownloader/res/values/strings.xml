@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VKMusicDownloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>    
+    <string name="search_audio">Search audios</string>
+    <string name="search_results">Search Results</string>    
+    <string name="main_title">VK Music Downloader</string>
+    <string name="allMusic_title">VK Music</string>
+    <string name="savedMusic_title">Saved Music</string>
+    
+    
+    <string name="drawer_options">Options</string>    
+    <string name="drawer_opened">Options opened</string>
+    <string name="drawer_closed">Options closed</string>
+
+</resources>
